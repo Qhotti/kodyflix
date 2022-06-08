@@ -53,13 +53,15 @@ body::-webkit-scrollbar{
 
 .moviesearch{
    color: azure;
-     /*display: flex;
+   text-shadow: 2px 2px black;
+     display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center; 
+    
 }
 
 .searchbar {
-    
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,18 +75,21 @@ body::-webkit-scrollbar{
     outline: none;
 }
 #person-name{
+    color: black;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     margin-top: 1em;
 }
 #movie-name{
+    color: black;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     margin-top: 1em;
     }
 #comment{
+    color: red;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -101,6 +106,7 @@ body::-webkit-scrollbar{
 
 
 form{
+    color: red;
     text-align: center;
 }
 
