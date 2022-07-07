@@ -47,7 +47,7 @@ body::-webkit-scrollbar{
     justify-content: left;
     align-items: left;
     max-width: 100%;
-    margin-top: 1.5em;
+    
     margin-left: 1em;
 }
 
@@ -58,6 +58,19 @@ body::-webkit-scrollbar{
     justify-content: center;
     align-items: center; 
     
+}
+
+.broke{
+    margin-top: 3.5em;
+}
+
+.broken, .broken:hover, .broken:active, .broken:focus {
+    
+    color: #fcba04;
+    font-size: 25px;
+    
+    text-shadow: 3px 2px black;
+    text-decoration:none;
 }
 
 .searchbar {
